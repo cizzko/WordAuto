@@ -1,1 +1,1 @@
-Times New Roman;14;1.5
+Times New Roman;14;1.5;src/assets/output;src/assets/input

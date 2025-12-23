@@ -2,5 +2,4 @@
 build
 out
 .idea
-
-config.properties
+src/assets/output/
