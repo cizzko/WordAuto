@@ -11,7 +11,7 @@ public class Main {
     static String fontName = "Times New Roman";
     static File outDir, inDir;
     static int fontSize = 14;
-    static double spacing = 1.5;
+    static float spacing = 1.5f;
 
     public static void main(String[] args) {
         readConf();
@@ -60,7 +60,7 @@ public class Main {
 
                 fontName = parts[0];
                 fontSize = Integer.parseInt(parts[1]);
-                spacing = Double.parseDouble(parts[2]);
+                spacing = Float.parseFloat(parts[2]);
                 outDir = new File(parts[3]);
                 inDir = new File(parts[4]);
             }
